@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+body		{	margin:o;
+				padding:0;
+				border:0 none;
+				font-family:calibri;
+			}
+			
+.container	{	width:90%;
+				height:auto;
+				margin:0 auto;
+			}	
+			
+.cmp_tbl {
+				display: table;
+				width: 106%;
+				border: 1px #C4C4C4 solid;
+				border-collapse: collapse;
+			}
+			
+.cmp_tblrow {
+				display: table-row;
+			}
+
+.cmp_tblcell.cell1 {
+				text-align: left;
+			}
+
+
+.cmp_tblcell {
+				display: table-cell;
+				border: 1px #C4C4C4 solid;
+				padding: 10px;
+				color: #515151;
+				font-size: 14px;
+				vertical-align: middle;
+				text-align: left;
+				min-width: 54px;
+}			
+
+.cmp_tblcell .cross {
+					width: 18px;
+					height: 14px;
+					background: url(../images/ecomm_combi.png) no-repeat -31px -23px;
+					margin: 0 auto;
+}
+
+.cmp_tblcell .tick {
+						width: 18px;
+						height: 14px;
+						background: url(../images/ecomm_combi.png) no-repeat -33px -1px;
+						margin: 0 auto;
+					}		
+					
+.cmp_tblwrap {
+width: 40%;
+margin:35px;
+float:left;
+}					
+
+.cmp_tblwrap1 {
+width: 40%;
+float:left;
+margin:35px;
+}
+
+.cmp_tblwrap1 .cmp_tblrow.th .cmp_tblcell {
+background: #81A112;
+color: white;
+font-size: 18px;
+}
+
+.cmp_tblwrap1 .cmp_tblrow .cmp_tblcell {
+font-size: 16px;
+color: #6D774C;
+line-height: 20px;
+}
+
+
+.e_lt, .left {
+float: left;
+}
+
+.e_lt, .left {
+float: left;
+}
+.rupee_symbol {
+height: 19px;
+font-size: 22px;
+line-height: 19px;
+color: #84A01A;
+margin: 0px 5px 0px 2px;
+}
+
+.rupee_txt {
+font-size: 20px;
+line-height: 20px;
+color: #84A01A;
+}
+
+.cmp_tbl.tbl2 .buy_btn {
+background: #5B3789;
+margin: 0 auto;
+color: white;
+padding: 0px 9px;
+font-size: 14px;
+border: 1px #5B3789 solid;
+}
+
+.cmp_tblrow {
+display: table-row;
+}
+
+.cmp_tbl.tbl2 .cmp_tblcell {
+border: none;
+text-align: center;
+}
+
+.cmp_tbl.tbl2 .buy_btn {
+background: #5B3789;
+margin: 0 auto;
+color: white;
+padding: 0px 9px;
+font-size: 14px;
+border: 1px #5B3789 solid;
+}
+.buy_btn {
+width: 85px;
+height: 30px;
+line-height: 30px;
+background: #8FB20F;
+text-transform: uppercase;
+color: white;
+font-size: 16px;
+text-align: center;
+text-decoration: none;
+display: block;
+margin-top: 5px;
+transition: all 0.3s linear;
+border: 1px #8FB20F solid;
+}
+
+a		{	text-decoration:none;}
+
+.cmp_tbl.tbl2 {
+border: none;
+}
+
+
+.cmp_tblwrap1 .cmp_tblrow.colr1 {
+background: #F6F8EE;
+}

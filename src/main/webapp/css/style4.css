@@ -1,0 +1,9 @@
+body	{margin:0;
+		padding:0;
+		border:0 none;}
+
+
+.wrap1 {width:50%;
+		height:500px;
+		float:left;
+		background-color:lightblue;}

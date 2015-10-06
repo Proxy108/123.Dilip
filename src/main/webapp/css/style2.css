@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body		{	margin:0;
+				padding:0;
+				border:0 none;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			
+			
+.wrap		{	width:80%;
+				margin:0 auto;
+				max-height:700px;
+			}	
+			
+			
+.logo		{	width:30%;
+				float:left;
+			}			
+.help		{	float:right;}					
+
+
+.help	h2{		margin:0;
+				color:#F19932;
+			
+			}
+			
+.help	h4	{	margin:0;}	
+
+.main-details		{	  border: #CACACA solid 1px;
+ 						 padding: 10px;
+						 float:left;
+						 width:70%;
+					}		
+					
+.main-details h4		{	color:#000;
+							float:left;
+							padding:5px;
+							margin:0;
+						}	
+						
+.left		{	width:50%;
+				float:left;
+			}										
+			
+.left	p	{	color:#333;
+				font-size:12px
+				}	
+				
+.right		{	width:45%;
+				float:right;
+				margin-right:5px;}	
+				
+.right	p	{	color:#333;
+				font-size:12px
+
+				}	
+				
+.content		{	width:70%;
+					float:left;
+					margin-top:25px;
+				}	
+
+
+.content h4		{	margin:0;}				
+.content p		{	margin:0;
+				font-size:12px
+}							
+
+
+.content li		{	font-size:12px;}
+
+strong		{	font-size:15px}
+
+.main-details1	{	  border: #CACACA solid 1px;
+ 						 padding: 10px;
+						 float:left;
+						 width:70%;
+					}	
+					
+.left1		{	width:100%;
+				float:left;
+			}										
+			
+.left1	p	{	color:#333;
+				font-size:13px;
+				border-bottom:1px solid #f0f3fa;
+				}	
+.lang		{	width:100%;
+				float:left;
+						 margin-top:25px;
+			}										
+.table		{	  border: #CACACA solid 1px;
+ 						 padding: 10px;
+						 float:left;
+						 width:70%;
+					}	
+					
+.table	h5		{	margin:0;}
+
+.table p		{	color:#333;
+				font-size:13px;
+				border-bottom:1px solid #f0f3fa;
+				}	
+				
+.block		{	width:40%;
+				float:left;}		
+
+.block1		{	width:20%;
+				float:left;
+				text-align:center;
+			}	
+			
+			
+h1,h2h3,h4,h5	{	margin:0}
+
+.footer			{	width:100%;
+					margin-top:25px;
+					height:120px;
+					background:#F6F6F6;
+					float:left;
+					text-align:center;
+				}	
+				
+.footer	p		{	color:#777;}						
+				
+.footer	li		{	display:inline;
+					font-size:14px;
+					margin-top:10px;
+					padding-left:15px}				
+					
+.footer	ul			{margin-top:10px;}	
+
+a			{		color:#777;}	
+
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}

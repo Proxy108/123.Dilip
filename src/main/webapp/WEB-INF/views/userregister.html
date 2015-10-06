@@ -1,0 +1,267 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+ <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<style>
+	
+	.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+	</style>
+	<script language="javascript">
+			populateCountries("country", "state");
+			populateCountries("country2");
+		</script>
+	
+</head>
+
+
+<body class="top-navigation">
+
+	<div class="ibox-content">
+		<div class="alert alert-success">
+			
+		</div>
+		<h3>
+			<b>Employee Profile Details:</b>
+		</h3>
+		<div class="wrapper wrapper-content">
+			<div class="container">
+				<div class="row">
+
+					<div class="ibox-content">
+				
+					
+
+						<form  class="form-horizontal" >
+
+							<h3>
+			<b>Create Your Profile Details:</b>
+		</h3>
+							<br />
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">First Name</label>
+
+									<div class="col-md-4">
+										<input type="firstName" class="form-control" />
+									</div>
+								</div>
+							</div><br />
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Last Name</label>
+
+									<div class="col-md-4">
+										<input type="lastName" class="form-control" />
+									</div>
+								</div>
+							</div><br />
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Password</label>
+
+									<div class="col-md-4">
+										<input type="password" class="form-control" />
+									</div>
+								</div>
+							</div><br />
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Location</label>
+
+									<div class="col-md-4">
+										<input type="location" class="form-control" />
+									</div>
+								</div>
+							</div><br />
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Contact No</label>
+
+									<div class="col-md-4">
+										<input type="contactNo" class="form-control" />
+									</div>
+								</div>
+							</div><br />
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Key Skills
+										</label>
+									<div class="col-md-4">
+										<select path="years" id="years" class="form-control" multiple="true"
+											 tabindex="2">
+											<option value="0">Select</option>
+											<option value="1">Java</option>
+											<option value="2">javascript</option>
+											<option value="3">jquery</option>
+											<option value="4">Spring</option>
+											<option value="4">SpringMVC</option>
+											<option value="5">struts1</option>
+											<option value="6">struts2</option>
+											<option value="7">Jsf</option>
+											<option value="9">jsp</option>
+											<option value="10">EJB</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<br />
+							
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Country
+										</label>
+									<div class="col-md-4">
+										<select path="years" id="years" class="form-control"
+											 tabindex="2">
+											<option value="0">Select</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<br />
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">State </label>
+									<div class="col-md-4">
+										<select path="Month" id="Month" class="form-control"
+											 tabindex="2">
+											<option value="0">Select</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+
+										</select>
+									</div>
+								</div>
+							</div>
+							<br />
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">City</label>
+									<div class="col-md-4">
+										<select path="Skills" id="Skills" class="form-control"
+											  tabindex="4">
+											<option value="">Select</option>
+											<option value="Java">Java</option>
+											<option value="javascript">javascript</option>
+											<option value="Css">Css</option>
+											<option value="Html">Html</option>
+											<option value="Spring">Spring</option>
+											<option value="Hibernate">Hibernate</option>
+										</select>
+									</div>
+									
+								</div>
+							</div>
+							
+							<br />
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Pin</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control"/>
+									</div>
+								</div>
+							</div>
+							<br />
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Contact Person</label>
+									<div class="col-md-4">
+										<input path="masterDegree" class="form-control" />
+									</div>
+								</div>
+							</div>
+							<br />
+							
+							
+						
+							<div class="form-group">
+								
+								<div class="col-sm-10">
+									
+									<div class="checkbox">
+										<label> <input type="checkbox" path="termsandConditions" value="2" class="form-control" />
+											Recieve Promotional Mails
+										</label>
+									</div>
+									<div class="checkbox">
+										<label> <input type="checkbox" path="emailJobs" value="3" class="form-control"/>
+											EJobzz Email
+										</label>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="hr-line-dashed"></div>
+							<div class="form-group">
+								<div class="col-sm-4 col-sm-offset-2">
+									<input type="submit" class="btn btn-primary" value="create Your Profile"/>
+									<button class="btn btn-white" type="reset">Reset</button>
+
+								</div>
+							</div>
+
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	 <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+   
+   <script src="js/countries.js"></script>
+
+    
+</body>
+
+
+
+
+
+</html>
